@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+.box-ptf{
+}
+
+.arrow-left{
+	background: #F1F1F1 url('../imagens/arrows.gif') 13px 65px no-repeat;
+	width: 32px;
+	height: 150px;
+	float:left;
+	margin-right: 2px;
+}
+
+
+
+.box-img{
+	width: 150px;
+	height: 150px;
+	margin-right: 13px;
+	background: #F1F1F1;
+	border: 1px solid #BBB;
+	float: left;
+}
+
+.arrow-right{
+	background: #F1F1F1 url('../imagens/arrows.gif') -42px 65px no-repeat;
+	width: 32px;
+	height: 150px;
+	float:left;
+	margin-left: 2px;
+}

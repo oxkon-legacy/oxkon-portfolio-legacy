@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+.artigo{
+	margin: 10px 0 10px 0;
+}
+
+.artigo span{
+	width: auto;
+	float: left;
+	color: #333 !important;
+	margin-right: 10px;
+	font-family: 'Arvo', serif !important;
+	font-weight: 700;
+	font-size: 42px;
+}
+
+h1.h1top{
+	margin: 0px;
+	padding: 0px;
+	color: #333 !important;
+	width:auto;
+	float: left;
+}
+
+.fontwhite{
+	color: #CCC;
+	margin: 5px 5px 0 0;
+	float: right;
+}
+
+.fontwhite a{
+	color: #CCC;
+	text-decoration: underline;
+}
+
+ul{
+	list-style: square;
+}
+
+ul li{
+	color: #666;
+	
+}
+
+h2{
+	margin: 0px;
+	padding: 0px;
+	color: #333 !important;
+	width: auto;
+	float: left;
+}
+
+.contArtigo{
+	margin-top: 25px;
+	float: left;
+	text-align: justify;
+}
