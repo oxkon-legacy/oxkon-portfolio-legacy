@@ -1,0 +1,212 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="Adm_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Administração</title>
+
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+
+}
+
+-->
+</style>
+<asp:Literal runat="server" ID="ltCSS"></asp:Literal>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body class="BG">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="padding-left: 20px;
+	margin-left: 20px;">
+  <tr>
+    <td align="center"><table class="Lagura" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="100" colspan="2" class="TarjaGrande"><table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td background="Imagens/faixa.png"><table width="98%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td rowspan="2" width="100"><img src="Imagens/logo.png" width="100%" height ="100%" /></td>
+                <td align="left" valign="bottom">
+                    <asp:Label ID="lbTitulo" runat="server" Font-Size="X-Large"></asp:Label>
+                  </td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                    <asp:Label ID="lbRazao" runat="server" Font-Bold="True" Font-Size="Large"></asp:Label>
+                  </td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="30" colspan="2" align="center" valign="middle"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="TarjaPequena"><table width="100%" border="0" cellpadding="0" cellspacing="0" background="Imagens/faixa2.png">
+              <tr>
+                <td valign="bottom" align="left">
+                    <asp:Label ID="lbNome" runat="server" Text=""></asp:Label>
+                  </td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+        </tr>
+      <tr>
+        <td width="20%" height="100" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="TarjaMenu"><table width="100%" border="0" cellpadding="0" cellspacing="0" background="Imagens/faixa2.png">
+              <tr>
+                <td valign="bottom"><a href="/Adm/Administracao.aspx">Início</a></td>
+                </tr>
+              </table></td>
+          </tr>
+          </table>
+          <br />
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="TarjaMenu"><table width="100%" border="0" cellpadding="0" cellspacing="0" background="Imagens/faixa2.png">
+                <tr>
+                  <td valign="bottom">Administração Geral </td>
+                  </tr>
+                </table></td>
+              </tr>
+            <tr>
+              <td background="Imagens/Bgbranco.png"><a href="/Adm/AdmCadastro.aspx">Cadastro</a><br />
+                  <a href="/Adm/AdmUsuarios.aspx">Usuários</a><br />
+                  <a href="/Adm/Configuracoes.aspx">Configurações</a></td>
+            </tr>
+            </table>
+          <br />
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="TarjaMenu"><table width="100%" border="0" cellpadding="0" cellspacing="0" background="Imagens/faixa2.png">
+                <tr>
+                  <td valign="bottom">Pedidos</td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td background="Imagens/Bgbranco.png"><a href="PedidosListar.aspx">Listar</a></td>
+            </tr>
+          </table>
+          <br />
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="TarjaMenu"><table width="100%" border="0" cellpadding="0" cellspacing="0" background="Imagens/faixa2.png">
+                <tr>
+                  <td valign="bottom">Clientes</td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td background="Imagens/Bgbranco.png"><a href="ClientesListar.aspx">Listar</a></td>
+            </tr>
+          </table>
+          <br />
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="TarjaMenu"><table width="100%" border="0" cellpadding="0" cellspacing="0" background="Imagens/faixa2.png">
+                <tr>
+                  <td valign="bottom">Categorias</td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td background="Imagens/Bgbranco.png"><a href="CategoriasListar.aspx">Listar</a></td>
+            </tr>
+          </table>
+          <br />
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="TarjaMenu"><table width="100%" border="0" cellpadding="0" cellspacing="0" background="Imagens/faixa2.png">
+                <tr>
+                  <td valign="bottom">Produtos</td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td background="Imagens/Bgbranco.png"><a href="ProdutosListar.aspx" >Listar</a></td>
+            </tr>
+          </table>
+<br />
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="TarjaMenu"><table width="100%" border="0" cellpadding="0" cellspacing="0" background="Imagens/faixa2.png">
+                <tr>
+                  <td valign="bottom">Fornecedores</td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td background="Imagens/Bgbranco.png"><a href="FornListar.aspx" >Listar</a></td>
+            </tr>
+          </table>
+<br />
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="TarjaMenu"><table width="100%" border="0" cellpadding="0" cellspacing="0" background="Imagens/faixa2.png">
+                <tr>
+                  <td valign="bottom">Newsleter</td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td background="Imagens/Bgbranco.png"><a href="NewsletterNova.aspx">Enviar nova</a><br />
+                  <a href="NewsletterListar.aspx">Listar Newletters</a>
+                  </td>
+            </tr>
+          </table>
+          <br />
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="TarjaMenu"><table width="100%" border="0" cellpadding="0" cellspacing="0" background="Imagens/faixa2.png">
+                <tr>
+                  <td valign="bottom">
+                      <asp:LinkButton ID="lbSair" runat="server">Sair</asp:LinkButton>
+                    </td>
+                  </tr>
+                </table></td>
+            </tr>
+          </table></td><br/>
+        <td align="right" valign="top"><table width="98%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td background="Imagens/Bgbranco.png" align="left">
+              <p> 
+              <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+              </p></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="30" colspan="2" align="center" valign="middle"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="TarjaPequena"><table width="100%" border="0" cellpadding="0" cellspacing="0" background="Imagens/faixa2.png">
+              <tr>
+                <td valign="bottom">Desenvolvido por Zou Design</td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<table width="493" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td background="/Imagens/tbpg1.png">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="32" background="/Imagens/tbpg2.jpg" style=" font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; padding-left: 10px;">Cartões de Crédito</td>
+  </tr>
+  <tr>
+    <td style=" padding-left: 10px;" background="file:///D|/Documents/Zou/Sites/cestasdelicias.com.br/Imagens/tbpg2.jpg"><p align="left"><img src="/Imagens/cartoes.png" width="305" height="25" /></p>
+    </td>
+  </tr>
+  <tr>
+    <td background="/Imagens/tbpg3.png">&nbsp;</td>
+  </tr>
+</table>

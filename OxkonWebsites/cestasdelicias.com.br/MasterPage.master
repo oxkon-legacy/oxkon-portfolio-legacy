@@ -1,0 +1,307 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+<style type="text/css" media="all"> 
+<!--
+body{ background-image: url(/imagens/BG.jpg); background-repeat: repeat-x; background-position: top; background-color: #fff;}
+
+.padding{ padding-left: 13px;}
+ 
+a.classe1:link{ text-decoration: none; font-family: Geneva, Arial, Helvetica, sans-serif; color: #2c2208; font-size:11px;}
+a.classe1:hover{ text-decoration: none; font-family: Geneva, Arial, Helvetica, sans-serif; color: #663300; font-size:11px;}
+a.classe1:visited{ text-decoration: none; font-family: Geneva, Arial, Helvetica, sans-serif; color: #666666; font-size:11px;}
+
+a.classe2:link{ padding-left:20px; text-decoration: none; font-family: Geneva, Arial, Helvetica, sans-serif; color: #E7ECD2; font-size:10px;}
+a.classe2:hover{padding-left:20px; text-decoration: none; font-family: Geneva, Arial, Helvetica, sans-serif; color: #D8D67A; font-size:10px;}
+a.classe2:visited{padding-left:20px; text-decoration: none; font-family: Geneva, Arial, Helvetica, sans-serif; color: #CCCCCC; font-size:10px;}
+
+a.classe4:link{ text-decoration: underline; font-family: Geneva, Arial, Helvetica, sans-serif; color: #2c2208; font-size:11px;}
+a.classe4:hover{ text-decoration: underline; font-family: Geneva, Arial, Helvetica, sans-serif; color: #663300; font-size:11px;}
+a.classe4:visited{ text-decoration: underline; font-family: Geneva, Arial, Helvetica, sans-serif; color: #666666; font-size:11px;}
+
+a.classe5:link{ text-decoration: underline; font-family: Geneva, Arial, Helvetica, sans-serif; color: #2c2208; font-size:13px;}
+a.classe5:hover{ text-decoration: underline; font-family: Geneva, Arial, Helvetica, sans-serif; color: #663300; font-size:13px;}
+a.classe5:visited{ text-decoration: underline; font-family: Geneva, Arial, Helvetica, sans-serif; color: #666666; font-size:13px;}
+
+ 
+    .style1
+    {
+        width: 100%;
+        font-family: Verdana, Arial, MS Sans Serif;
+        font-size: 11px;
+    }
+ 
+    .style2
+    {
+        width: 346px;
+    }
+ 
+    .style3
+    {
+        width: 72px;
+    }
+ 
+    .style4
+    {
+        width: 40px;
+    }
+ 
+    .style5
+    {
+        width: 72px;
+        height: 27px;
+    }
+    .style6
+    {
+        height: 25px;
+    }
+ 
+    .style7
+    {
+        width: 100%;
+    }
+ 
+    -->
+</style>
+</head>
+ 
+<body>
+    <form id="form1" runat="server">
+    <table cellpadding="0" cellspacing="0" class="style1">
+        <tr>
+            <td class="style2">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+            
+            </td>
+            <td>
+                &nbsp;</td>
+        </tr>
+    </table>
+<table border="0" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+       <td style=" vertical-align: top"> 
+	   <a href="/" border="0"><img src="/imagens/cst_03.png" border="0" /></a>
+	   <table width="190" border="0" align="center" cellpadding="0" cellspacing="0">
+		<tr>
+          <td height="62" background="/imagens/cst_13.png" style=" vertical-align: top;">
+              <table cellpadding="0" cellspacing="0" class="style1" style=" vertical-align: top; padding: 0px; margin: 0px;">
+                  <tr height="35">
+                      <td>
+                            <asp:TextBox ID="tbPesquisa" runat="server" BackColor="Transparent" 
+                                BorderStyle="None" BorderWidth="0px" Width="95%" CssClass="padding" 
+                                Font-Names="Arial" Font-Size="11px" ForeColor="#feadad"></asp:TextBox>
+                      </td>
+                      <td  width="35">
+                          <asp:Button ID="btPesquisa" runat="server" Text="." BackColor="Transparent" 
+                              BorderStyle="None" BorderWidth="0px" ForeColor="#CC6600" Height="30px" 
+                              Width="100%" CausesValidation="False" UseSubmitBehavior="False" />
+                            </td>
+                  </tr>
+              </table>
+            </td>
+        </tr>
+        <tr>
+          <td background="/imagens/tbBg.jpg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td style=" background-image:url(/imagens/tbLuz.jpg); background-position:top; background-repeat:no-repeat;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td height="263" style=" vertical-align: top;">
+                            <asp:GridView ID="gvDepartamentos" runat="server" AutoGenerateColumns="False" 
+                                BorderStyle="None" BorderWidth="0px">
+                                <Columns>
+                                    <asp:HyperLinkField DataNavigateUrlFields="catCodigo" 
+                                        DataNavigateUrlFormatString="Departamentos.aspx?Categoria={0}" 
+                                        DataTextField="catNome" DataTextFormatString="{0}" >
+                                        <ControlStyle CssClass="classe2" BorderStyle="None" BorderWidth="0px" />
+                                        <HeaderStyle BorderStyle="None" BorderWidth="0px" Font-Size="1px" />
+                                        <ItemStyle CssClass="classe2" BorderStyle="None" BorderWidth="0px" />
+                                    </asp:HyperLinkField>
+                                </Columns>
+                            </asp:GridView>
+                        </td>
+                </tr>
+              </table></td>
+            </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td style=" background-image:url(/imagens/tbRod.jpg); background-repeat:no-repeat;">
+              &nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img src="/imagens/siteMod1_08.png" alt="Atendimento" width="80" height="17" /></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="21" background="/imagens/cst_33.png">&nbsp;</td>
+              <td style=" line-height: 24px; border-bottom-style:dotted; border-bottom-width: 1px; border-bottom-color:#999999;"><a href="ComoComprar.aspx" class="classe1">
+                  Como Comprar?</a></td>
+            </tr>
+            <tr>
+              <td background="/imagens/cst_33.png">&nbsp;</td>
+              <td style="line-height: 24px; border-bottom-style:dotted; border-bottom-width: 1px; border-bottom-color:#999999;"><a href="FormasPagamento.aspx" class="classe1">
+                  Formas de Pagamento</a></td>
+            </tr>
+            <tr>
+              <td background="/imagens/cst_33.png">&nbsp;</td>
+              <td style="line-height: 24px; border-bottom-style:dotted; border-bottom-width: 1px; border-bottom-color:#999999;"><a href="TermodePrivacidade.aspx" class="classe1">
+                  Termo de Privacidade</a></td>
+            </tr>
+            <tr>
+              <td background="/imagens/cst_33.png">&nbsp;</td>
+              <td style=" line-height: 24px; border-bottom-style:dotted; border-bottom-width: 1px; border-bottom-color:#999999;"><a href="TrocadeProdutos.aspx" class="classe1">
+                  Troca de Produtos</a></td>
+            </tr>
+          </table></td>
+        </tr>
+        
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="190">
+              &nbsp;
+                            </td>
+        </tr>
+      </table> </td>
+        <td style=" vertical-align: top;">            
+<table border="0" align="center" cellpadding="0" cellspacing="0" width="490">
+  <tr>
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" class="style1">
+                    <tr>
+                        <td>
+                            <asp:Label ID="lbNome" runat="server" Font-Bold="True" Font-Names="Arial" 
+                                Font-Size="16px" ForeColor="Black"></asp:Label>
+                            &nbsp;<asp:Label ID="lbInfo" runat="server"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="lbData" runat="server" Font-Names="Arial" Font-Size="11px" 
+                                ForeColor="#333333"></asp:Label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                </table>
+              </td>
+            <td width="245" height="114">
+                <table cellpadding="0" cellspacing="0" class="style1" style="background-image: url(/imagens/siteMod1_06.png); background-repeat:no-repeat;">
+                    <tr>
+                        <td height="25" colspan="2">
+                            &nbsp;</td>
+                    </tr>
+                    <tr style=" vertical-align: bottom;">
+                        <td class="style5">
+                            </td>
+                        <td class="style6">
+                                        <asp:Label ID="lbDescCarrinho" runat="server" Font-Names="Arial" 
+                                            Font-Size="11px"></asp:Label>
+                                                </td>
+                    </tr>
+                    <tr height="25" style=" vertical-align: top;">
+                        <td class="style3">
+                            &nbsp;</td>
+                        <td>
+                                        <table cellpadding="0" cellspacing="0" class="style1">
+                                            <tr>
+                                                <td class="style4">
+                                        <asp:LinkButton ID="lbLogin" runat="server" Font-Names="Arial" Font-Size="11px" 
+                                            ForeColor="#34292E" CssClass="padBot" CausesValidation="False">Login</asp:LinkButton>
+                                                </td>
+                                                <td>
+                            <asp:Button ID="btFinalizar" runat="server" Text="Finalizar Compras" 
+                                BackColor="Transparent" Height="16px" BorderStyle="None" BorderWidth="0px" 
+                                            Font-Names="Arial" Font-Size="11px" Width="106px" UseSubmitBehavior="False" />
+                                                    </td>
+                                            </tr>
+                                        </table>
+                                                    </td>
+                    </tr>
+                </table>
+                                    </td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+      <td>
+      <asp:Panel ID="pTopo" runat="server">
+      <p style=" padding-top: 13px;">
+      <img src="/Imagens/etapas.png" />
+      </p>
+      <br />
+      </asp:Panel>
+      </td>
+      </tr>
+      <tr>
+      <td>
+          <table cellpadding="0" cellspacing="0" class="style7">
+              <tr>
+                  <td>
+                      <img src="/imagens/telefone.jpg" /></td>
+                  <td>
+                      <img src="/imagens/entregas.jpg" /></td>
+              </tr>
+          </table>
+&nbsp;</td>
+      </tr>
+      <tr>
+        <td valign="top">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            
+            
+        
+        </asp:ContentPlaceHolder>
+                        </td>
+      </tr>
+      <tr>
+        <td height="51" valign="top"><img src="/imagens/siteMod1_35.jpg" alt="Formas de Pagamento" width="493" height="51" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="30" align="right" valign="bottom"><img src="/imagens/siteMod1_42.png" width="327" height="13" /></td>
+        <td width="200" height="20" align="right" valign="bottom"><img src="/imagens/siteFatias_52.png" width="121" height="13" /></td>
+      </tr>
+      <tr>
+        <td height="60" colspan="2" align="right" valign="bottom">&nbsp;
+     </td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+</td>
+</tr>
+</table>
+    </form>
+</body>
+</html>

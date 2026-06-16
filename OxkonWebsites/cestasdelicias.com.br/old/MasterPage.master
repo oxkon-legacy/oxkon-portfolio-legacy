@@ -1,0 +1,71 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+            </asp:ScriptManager>
+            <p>
+                <table style="width:100%;">
+                    <tr>
+                        <td colspan="2">
+                            <table style="width:100%;">
+                                <tr>
+                                    <td>
+                                        Logo</td>
+                                    <td>
+                                        <asp:Label ID="lbNome" runat="server"></asp:Label>
+                                        <br />
+                                        <asp:Label ID="lbData" runat="server"></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:Label ID="lbDescCarrinho" runat="server"></asp:Label>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">
+                            <asp:TextBox ID="tbPesquisa" runat="server"></asp:TextBox>
+&nbsp;<asp:Button ID="btPesquisa" runat="server" Text="Button" />
+                            <br />
+                            <asp:GridView ID="gvDepartamentos" runat="server" AutoGenerateColumns="False">
+                                <Columns>
+                                    <asp:HyperLinkField DataNavigateUrlFields="catCodigo" 
+                                        DataNavigateUrlFormatString="Departamentos.aspx?Categoria={0}" 
+                                        DataTextField="catNome" DataTextFormatString="{0}" HeaderText="Departamentos" />
+                                </Columns>
+                            </asp:GridView>
+                        </td>
+                        <td>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            
+            
+        
+        </asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            &nbsp;</td>
+                    </tr>
+                </table>
+            </p>
+    </div>
+    </form>
+</body>
+</html>
