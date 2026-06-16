@@ -1,0 +1,66 @@
+.estilo {
+	font-family: Arial;
+	font-size: 10px;
+}
+.linhasup {
+	border-top: 1px solid #990000;
+	border-right: 1px none #990000;
+	border-bottom: 1px none #990000;
+	border-left: 1px none #990000;
+}
+.topolat {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #990000;
+	border-right-color: #990000;
+	border-bottom-color: #990000;
+	border-left-color: #990000;
+}
+.bordacompleta {
+	border: 1px solid #990000;
+}
+
+
+a:link {text-decoration: none; color: #FFFFFF}
+a:visited {text-decoration: none; color: #FFFFFF}
+a:hover {
+	color: #FFFFFF;
+	/*font-weight: bold;
+	border: 1px none #FF0000;*/
+
+
+
+
+
+
+
+}
+a:active {text-decoration: none; color: #FFFFFF;font-weight: bold;}
+.linhabranca {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #FF9999;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FF6633;
+	border-left-color: #FFFFFF;
+	border-top-style: solid;
+}
+body {
+	font-family: Arial;
+	font-size: 10px;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+
+
+
+
+}
