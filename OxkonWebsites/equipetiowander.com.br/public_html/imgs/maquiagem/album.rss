@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Maquiagem artística</title>
+   	<link>.</link>
+        <generator>jAlbum 9</generator>
+   		<description>Maquiagem artística</description>
+        <item>
+            <title>img1</title>
+            <link>slides/img1.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img1.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img1.jpg" width="458" height="600"/>
+            <guid isPermaLink="false">slides/img1.jpg</guid>
+        </item>
+        <item>
+            <title>img2</title>
+            <link>slides/img2.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img2.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img2.jpg" width="450" height="600"/>
+            <guid isPermaLink="false">slides/img2.jpg</guid>
+        </item>
+        <item>
+            <title>img3</title>
+            <link>slides/img3.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img3.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img3.jpg" width="640" height="451"/>
+            <guid isPermaLink="false">slides/img3.jpg</guid>
+        </item>
+        <item>
+            <title>img4</title>
+            <link>slides/img4.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img4.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img4.jpg" width="640" height="453"/>
+            <guid isPermaLink="false">slides/img4.jpg</guid>
+        </item>
+        <item>
+            <title>img5</title>
+            <link>slides/img5.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img5.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img5.jpg" width="640" height="455"/>
+            <guid isPermaLink="false">slides/img5.jpg</guid>
+        </item>
+        <item>
+            <title>img6</title>
+            <link>slides/img6.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img6.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img6.jpg" width="640" height="452"/>
+            <guid isPermaLink="false">slides/img6.jpg</guid>
+        </item>
+        <item>
+            <title>img7</title>
+            <link>slides/img7.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img7.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img7.jpg" width="640" height="453"/>
+            <guid isPermaLink="false">slides/img7.jpg</guid>
+        </item>
+        <item>
+            <title>img9</title>
+            <link>slides/img9.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img9.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img9.jpg" width="640" height="453"/>
+            <guid isPermaLink="false">slides/img9.jpg</guid>
+        </item>
+        <item>
+            <title>img10</title>
+            <link>slides/img10.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img10.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img10.jpg" width="640" height="451"/>
+            <guid isPermaLink="false">slides/img10.jpg</guid>
+        </item>
+        <item>
+            <title>img11</title>
+            <link>slides/img11.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img11.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img11.jpg" width="640" height="452"/>
+            <guid isPermaLink="false">slides/img11.jpg</guid>
+        </item>
+        <item>
+            <title>img12</title>
+            <link>slides/img12.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img12.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img12.jpg" width="640" height="452"/>
+            <guid isPermaLink="false">slides/img12.jpg</guid>
+        </item>
+        <item>
+            <title>img13</title>
+            <link>slides/img13.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img13.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img13.jpg" width="640" height="455"/>
+            <guid isPermaLink="false">slides/img13.jpg</guid>
+        </item>
+        <item>
+            <title>img18</title>
+            <link>slides/img18.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img18.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img18.jpg" width="640" height="480"/>
+            <guid isPermaLink="false">slides/img18.jpg</guid>
+        </item>
+        <item>
+            <title>img19</title>
+            <link>slides/img19.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img19.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img19.jpg" width="450" height="600"/>
+            <guid isPermaLink="false">slides/img19.jpg</guid>
+        </item>
+        <item>
+            <title>img20</title>
+            <link>slides/img20.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img20.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img20.jpg" width="640" height="480"/>
+            <guid isPermaLink="false">slides/img20.jpg</guid>
+        </item>
+        <item>
+            <title>img22</title>
+            <link>slides/img22.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img22.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img22.jpg" width="640" height="480"/>
+            <guid isPermaLink="false">slides/img22.jpg</guid>
+        </item>
+        <item>
+            <title>img23</title>
+            <link>slides/img23.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img23.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img23.jpg" width="450" height="600"/>
+            <guid isPermaLink="false">slides/img23.jpg</guid>
+        </item>
+        <item>
+            <title>img24</title>
+            <link>slides/img24.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img24.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img24.jpg" width="640" height="480"/>
+            <guid isPermaLink="false">slides/img24.jpg</guid>
+        </item>
+        <item>
+            <title>img27</title>
+            <link>slides/img27.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img27.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img27.jpg" width="450" height="600"/>
+            <guid isPermaLink="false">slides/img27.jpg</guid>
+        </item>
+        <item>
+            <title>img29</title>
+            <link>slides/img29.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img29.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img29.jpg" width="450" height="600"/>
+            <guid isPermaLink="false">slides/img29.jpg</guid>
+        </item>
+        <item>
+            <title>img31</title>
+            <link>slides/img31.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img31.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img31.jpg" width="450" height="600"/>
+            <guid isPermaLink="false">slides/img31.jpg</guid>
+        </item>
+        <item>
+            <title>img33</title>
+            <link>slides/img33.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img33.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img33.jpg" width="450" height="600"/>
+            <guid isPermaLink="false">slides/img33.jpg</guid>
+        </item>
+        <item>
+            <title>img36</title>
+            <link>slides/img36.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img36.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img36.jpg" width="640" height="480"/>
+            <guid isPermaLink="false">slides/img36.jpg</guid>
+        </item>
+        <item>
+            <title>img45</title>
+            <link>slides/img45.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img45.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img45.jpg" width="450" height="600"/>
+            <guid isPermaLink="false">slides/img45.jpg</guid>
+        </item>
+        <item>
+            <title>img52</title>
+            <link>slides/img52.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img52.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img52.jpg" width="640" height="480"/>
+            <guid isPermaLink="false">slides/img52.jpg</guid>
+        </item>
+        <item>
+            <title>img54</title>
+            <link>slides/img54.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img54.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img54.jpg" width="450" height="600"/>
+            <guid isPermaLink="false">slides/img54.jpg</guid>
+        </item>
+        <item>
+            <title>img55</title>
+            <link>slides/img55.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img55.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img55.jpg" width="640" height="480"/>
+            <guid isPermaLink="false">slides/img55.jpg</guid>
+        </item>
+        <item>
+            <title>img57</title>
+            <link>slides/img57.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img57.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img57.jpg" width="450" height="600"/>
+            <guid isPermaLink="false">slides/img57.jpg</guid>
+        </item>
+        <item>
+            <title>img59</title>
+            <link>slides/img59.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description>OLYMPUS DIGITAL CAMERA</description>
+            <media:description type="html">OLYMPUS DIGITAL CAMERA</media:description>
+            <media:thumbnail url="thumbs/img59.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img59.jpg" width="640" height="480"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS IMAGING CORP." cameraModel="C180,D435"/>
+            <guid isPermaLink="false">slides/img59.jpg</guid>
+        </item>
+        <item>
+            <title>img64</title>
+            <link>slides/img64.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img64.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img64.jpg" width="450" height="600"/>
+            <guid isPermaLink="false">slides/img64.jpg</guid>
+        </item>
+        <item>
+            <title>img66</title>
+            <link>slides/img66.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description>OLYMPUS DIGITAL CAMERA</description>
+            <media:description type="html">OLYMPUS DIGITAL CAMERA</media:description>
+            <media:thumbnail url="thumbs/img66.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img66.jpg" width="640" height="480"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS IMAGING CORP." cameraModel="C180,D435"/>
+            <guid isPermaLink="false">slides/img66.jpg</guid>
+        </item>
+        <item>
+            <title>img68</title>
+            <link>slides/img68.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 08:38:48 -0300</pubDate>
+            <description>OLYMPUS DIGITAL CAMERA</description>
+            <media:description type="html">OLYMPUS DIGITAL CAMERA</media:description>
+            <media:thumbnail url="thumbs/img68.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img68.jpg" width="450" height="600"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS IMAGING CORP." cameraModel="C180,D435"/>
+            <guid isPermaLink="false">slides/img68.jpg</guid>
+        </item>
+    </channel>
+</rss>

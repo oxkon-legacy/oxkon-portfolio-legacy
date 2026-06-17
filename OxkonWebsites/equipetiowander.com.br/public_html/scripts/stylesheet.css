@@ -1,0 +1,108 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+a.classe1:link{ text-decoration: none; font-family: Arial, Helvetica, sans-serif; color:#FF6600; font-size:11px;}
+a.classe1:hover{ text-decoration: underline; font-family: Arial, Helvetica, sans-serif; color:#FFCC00; font-size:11px;}
+a.classe1:visited{ text-decoration: underline; font-family: Arial, Helvetica, sans-serif; color: #b8d607; font-size:11px;}
+
+@font-face {
+     font-family: impact;
+     src: url('../fonts/impact.ttf');
+	 src: local('impact.ttf'), url;
+	 }
+
+/*PADRÃO*/
+
+body
+{
+	background: url(../imgs/back.gif);
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #333333;
+	padding: 0;
+	margin: 0;
+}
+
+h2
+{
+	text-transform:uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	color:#666666;
+}
+h4{
+	width: 200px;
+	border-bottom: 2px solid #c2000b;
+}
+p
+{
+	/*text-indent: 12px;*/
+	text-align: justify;
+}
+a{
+	color: #c2000b;
+	font-weight: bold;
+}
+img{border: 0;}
+/*FIM PADRÃO*/
+
+/*OBJETOS*/
+#geral
+{
+	width: 100%;
+	position: absolute;
+}
+#corpo
+{
+	background: url(../imgs/cont.png) no-repeat;
+	width: 800px;
+	height: 760px;
+	position: relative;
+}
+#cabeca
+{
+	width: 798px;
+	height: 260px;
+	position: relative;
+}
+#conteudogeral
+{
+	width: 798px;
+	height: 360px;
+	position: relative;
+}
+
+#conteudo
+{
+	height: 100%;
+	position: relative;
+	padding: 0 10px;
+	float:left;
+}
+
+#direita
+{
+	height: 100%;
+	width: 430px;
+	position: relative;
+	float: left;
+	margin-left: 7px;
+	overflow: auto;
+}
+
+#rodape
+{
+	width: 430px;
+	padding-top: 30px;
+	margin-left: 20px;
+	height: 80px;
+	position: relative;
+}
+#rodape table{
+	color: #333;
+}
+
+/*FIM OBJETOS*/
+
+/*CLASSES*/
+
+/*FIM CLASSES*/

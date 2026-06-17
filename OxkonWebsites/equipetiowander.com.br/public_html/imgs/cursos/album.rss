@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Cursos de pintura artística</title>
+   	<link>.</link>
+        <generator>jAlbum 9</generator>
+   		<description>Cursos de pintura artística</description>
+        <item>
+            <title>img37</title>
+            <link>slides/img37.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 09:19:57 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img37.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img37.jpg" width="640" height="480"/>
+            <guid isPermaLink="false">slides/img37.jpg</guid>
+        </item>
+        <item>
+            <title>img42</title>
+            <link>slides/img42.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 09:19:57 -0300</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/img42.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img42.jpg" width="640" height="480"/>
+            <guid isPermaLink="false">slides/img42.jpg</guid>
+        </item>
+        <item>
+            <title>img58</title>
+            <link>slides/img58.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 09:19:57 -0300</pubDate>
+            <description>OLYMPUS DIGITAL CAMERA</description>
+            <media:description type="html">OLYMPUS DIGITAL CAMERA</media:description>
+            <media:thumbnail url="thumbs/img58.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img58.jpg" width="640" height="480"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS IMAGING CORP." cameraModel="C180,D435"/>
+            <guid isPermaLink="false">slides/img58.jpg</guid>
+        </item>
+        <item>
+            <title>img61</title>
+            <link>slides/img61.jpg#</link>
+            <pubDate>Fri, 08 Apr 2011 09:19:57 -0300</pubDate>
+            <description>OLYMPUS DIGITAL CAMERA</description>
+            <media:description type="html">OLYMPUS DIGITAL CAMERA</media:description>
+            <media:thumbnail url="thumbs/img61.jpg" width="140" height="100"/>
+            <media:content type="image/jpeg" url="slides/img61.jpg" width="640" height="480"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS IMAGING CORP." cameraModel="C180,D435"/>
+            <guid isPermaLink="false">slides/img61.jpg</guid>
+        </item>
+    </channel>
+</rss>

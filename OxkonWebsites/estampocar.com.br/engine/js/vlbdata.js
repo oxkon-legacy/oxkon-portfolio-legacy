@@ -1,0 +1,1 @@
+Event.observe(window,'load', function(){ window.Lightbox = new VisualLightbox({autoPlay:true,borderSize:39,classNames:'vlightbox1',descSliding:true,enableRightClick:false,enableSlideshow:true,resizeSpeed:7,slideTime:4,startZoom:true}) });
