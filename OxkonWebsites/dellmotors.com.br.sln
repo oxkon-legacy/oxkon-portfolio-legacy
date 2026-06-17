@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Web Developer Express 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "dellmotors.com.br", "..\..\..\..\..\Public\Documents\zou\sites\dellmotors.com.br\", "{BD0E0182-AFDB-4BF8-86B9-A033F4C6E8D2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/dellmotors.com.br"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Public\Documents\zou\sites\dellmotors.com.br\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\dellmotors.com.br\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/dellmotors.com.br"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Public\Documents\zou\sites\dellmotors.com.br\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\dellmotors.com.br\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49594"
+		VWDVirtualPath = "/"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD0E0182-AFDB-4BF8-86B9-A033F4C6E8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0E0182-AFDB-4BF8-86B9-A033F4C6E8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
