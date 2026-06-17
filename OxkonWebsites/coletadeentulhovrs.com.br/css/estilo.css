@@ -1,0 +1,239 @@
+﻿body {
+	margin:0px;
+	padding:0px;
+	color:#606060;
+	font-family:Verdana, Arial , Helvetica, sans-serif;
+	font-size:10px;
+}
+
+img {
+	border:0px;
+}
+
+a, a:hover {
+	font-weight:lighter;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#000000;
+	letter-spacing:1px;
+}
+
+a.visited {
+	color:#ffffff;
+}
+
+h1 {
+	font-family:'Oswald', Helvetica, sans-serif;
+	font-size:32px;
+	font-style:normal;
+	text-transform:uppercase;
+	color:#999999;
+	padding-right:8px;
+	padding-bottom:-5px;
+	margin:0px:
+}
+
+h2 {
+	font-family:Impact, Haettenschweiler, 'Oswald', Helvetica, sans-serif;
+	font-size:16px;
+	font-style:normal;
+	font-weight:normal;
+	color:#9a9a9a;
+	padding-right:8px;
+	margin:5px;
+
+}
+
+h2.small {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding-right:8px;
+	text-align:right;
+	margin:5px;
+}
+
+h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	color:#ffffff;
+	padding:0px;
+}
+
+h4 {
+	font-size:9px;
+	font-weight:bold;
+	text-align:justify;
+}
+
+ul {
+	list-style-image:url('/imagens/icolist.gif');
+	font-family:
+}
+
+p {
+	font-family: Verdana, Tahoma, Arial, sans-serif ;
+	font-size:11px;
+	text-align:justify;
+	color:#c0c0c0;
+	padding:1px;
+}
+
+.titulo_campo{
+	width:100%;
+	height:15px;
+	float:left;
+	text-align:left;
+	vertical-align:middle;
+	margin:0 0 2px 10px;
+	padding-top:10px;
+}
+
+.campo{
+	width:100%;
+	float:left;
+	text-align: left;
+}
+.campo input, textarea{
+	width:100%;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+.linha {
+	background:url('/imagens/line.jpg');
+	width:100%;
+	height:3px;
+}
+
+.linha_box {
+	background:url('/imagens/line_box.jpg');
+	width:95%;
+	height:2px;
+	padding:0px;
+	margin-left:5px;
+}
+
+.centro {
+	display:block;
+	margin:auto;
+	padding:auto;
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 2px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 2px 0px 0px #ffffff;
+	box-shadow:inset 0px 2px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:4px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 2px 0px #ffffff;
+	margin-top:15px;
+}.myButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#tudo {
+    background:#131313;
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+
+#topo {
+	background:#131313 url('/imagens/bg.gif') center top repeat-x;
+	width:100%;
+	height:300px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+#cabecalho {
+    background:#EBEBEB url('/imagens/topo.jpg') no-repeat;
+    width:701px;
+    height:210px;
+    margin:79px auto;
+}
+
+#menu {
+	vertical-align:central;
+	font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size:16px;
+	text-align:left;
+	position:absolute;
+	width:680px;
+	height:25px;
+	margin-top:172px;
+	margin-left:10px;
+}
+
+#corpo {
+	width:701px;
+	height:auto;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+#corpo_e {
+    margin: 0px;
+    width:400px;
+    height:auto;
+    float:left;
+    padding:5px;
+}
+
+#corpo_d {
+    width:270px;
+    height:auto;
+    margin:0px;
+    float:right;
+    padding:5px;
+}
+
+#box {
+	background:#666666;
+	width:90%;
+	height:210px;
+	text-align:right;
+	position:relative;
+	margin:5px;
+	padding:10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+#img_box {
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:5px;
+	padding-left:10px;
+	width:175px;
+	height:280px;
+	float:right;
+}
+
+#rodape {
+    background:#131313 url('/imagens/rodape.jpg') repeat-x;
+    width:100%;
+    height:300px;
+    margin-bottom:0px;
+}
