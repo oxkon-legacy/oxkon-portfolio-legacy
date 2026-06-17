@@ -1,0 +1,258 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Quatro Irmãos - Desentupidora e Dedetizadora</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link  type="text/css" href="/script/StyleSheet.css" rel="stylesheet" media="all" />
+    <style type="text/css">
+<!--
+.style1 {color: #003366}
+-->
+
+#mn ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#mn li 
+{
+	float:left;
+	list-style: none;
+	width:90px;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+#mn li a {
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	vertical-align:middle;
+	display:block;
+	padding:5px 5px;
+	height:100%;
+	color:#000000;
+	text-decoration:none;
+}
+
+#mn li a:hover {
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	vertical-align:middle;
+	display:block;
+	padding:5px 5px;
+	height:100%;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+
+#b A {
+	BACKGROUND: url(/imagens/bg1.png) 2px 0px
+}
+
+#c A {
+	BACKGROUND: url(/imagens/bg1.png) 2px 0px
+}
+
+#d A {
+	BACKGROUND: url(/imagens/bg1.png) 2px 0px
+}
+
+#e A {
+	BACKGROUND: url(/imagens/bg1.png) 2px 0px
+}
+
+        #mn
+        {
+            margin-left: 0px;
+            margin-bottom: 0px;
+        }
+
+</style>
+
+<script type=text/javascript 
+src="/script/jquery-1.2.6.min.js"></script>
+
+<script type=text/javascript 
+src="/script/jquery.bgpos.js"></SCRIPT>
+
+<script type=text/javascript>
+    $(function () {
+        $('#b a')
+		.css({ backgroundPosition: "0 0" })
+		.mouseover(function () {
+		    $(this).stop().animate({ backgroundPosition: "(0 -105px)" }, { duration: 500 })
+		})
+		.mouseout(function () {
+		    $(this).stop().animate({ backgroundPosition: "(0 0px)" }, { duration: 420, complete: function () {
+		        $(this).css({ backgroundPosition: "0 0" })
+		    }
+		    })
+		})
+
+    });
+
+    $(function () {
+        $('#c a')
+		.css({ backgroundPosition: "0 0" })
+		.mouseover(function () {
+		    $(this).stop().animate({ backgroundPosition: "(0 -105px)" }, { duration: 500 })
+		})
+		.mouseout(function () {
+		    $(this).stop().animate({ backgroundPosition: "(0 0px)" }, { duration: 420, complete: function () {
+		        $(this).css({ backgroundPosition: "0 0" })
+		    }
+		    })
+		})
+
+    });
+
+    $(function () {
+        $('#d a')
+		.css({ backgroundPosition: "0 0" })
+		.mouseover(function () {
+		    $(this).stop().animate({ backgroundPosition: "(0 -105px)" }, { duration: 500 })
+		})
+		.mouseout(function () {
+		    $(this).stop().animate({ backgroundPosition: "(0 0px)" }, { duration: 420, complete: function () {
+		        $(this).css({ backgroundPosition: "0 0" })
+		    }
+		    })
+		})
+
+    });
+$(function () {
+    $('#e a')
+		.css({ backgroundPosition: "0 0" })
+		.mouseover(function () {
+		    $(this).stop().animate({ backgroundPosition: "(0 -105px)" }, { duration: 500 })
+		})
+		.mouseout(function () {
+		    $(this).stop().animate({ backgroundPosition: "(0 0px)" }, { duration: 420, complete: function () {
+		        $(this).css({ backgroundPosition: "0 0" })
+		    }
+		    })
+		})
+
+});
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18637274-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+<center>
+<table width="700" cellpadding="0" cellspacing="0" border="0" style=" border: solid 1px #CCCCCC;">
+<tr>
+<td>
+<table width="700" border="0" cellpadding="0" cellspacing="0" bgcolor="#F0F0F0">
+  <tr>
+    <td width="200"><img src="imagens/topo1a.gif" alt="topo1a" width="200" height="25" /></td>
+    <td background="imagens/topo1b.gif">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><a href="/" title="Home Page"><img src="imagens/Quatro_Irmaos.jpg" alt="Logo_Desentupidora" width="200" height="106" border="0"/></a></td>
+    <td align="right" valign="middle"><table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="left" colspan="8">
+        <ul id="mn">
+    <li style=" width: 15px;"><img src="imagens/QuatroIrmaos3_10.gif" alt="seta" width="6" height="19" /></li>
+  <li id=b style=" width: 70px;"><a href="/" title="Quem Somos">Empresa</a> </li>
+  <li style=" width: 15px;"><img src="imagens/QuatroIrmaos3_10.gif" alt="seta" width="6" height="19" /></li>
+  <li id=c><a href="/Desentupimento.aspx"  title="Desentupidora">Desentupidora</a> </li>
+  <li style=" width: 15px;"><img src="imagens/QuatroIrmaos3_10.gif" alt="seta" width="6" height="19" /></li>
+  <li id=d><a href="/Dedetizacao.aspx" title="Dedetizadora">Dedetizadora</a></li>
+  <li style=" width: 15px;"><img src="imagens/QuatroIrmaos3_10.gif" alt="seta" width="6" height="19" /></li>
+  <li id=e style=" width: 70px;"><a href="/Contato.aspx" title="Fale Conosco">Contato</a></li>
+        </ul>
+          </td>
+      </tr>
+      <tr>
+        <td colspan="8" background="imagens/QuatroIrmaos3_12.gif">&nbsp;</td>
+        </tr>
+      
+    </table>
+      <br /></td>
+  </tr>
+</table>
+<table width="700" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+        <object type="application/x-shockwave-flash" data="/Imagens/flash.swf" width="700" height="215">
+<param name="movie" value="/Imagens/flash.swf" />
+<param name="wmode" value="transparent" />
+<img src="banner.gif" width="700" height="215" alt="banner" />
+</object>
+    </td>
+  </tr>
+</table>
+<table width="700" border="0" cellspacing="0" cellpadding="0" bgcolor="#F0F0F0">
+  <tr>
+    <td width="200" align="center" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="10">
+      
+      <tr>
+        <td><p align="left" class="body"><strong>Dedetização</strong><br />
+          Controle  de pragas, altamente especializada no combate de cupins, baratas, pulgas,  formigas, ratos, insetos em geral.</p></td>
+      </tr>
+      <tr>
+        <td align="right"><a href="/servicos.aspx" class="classe1">+ saiba mais</a></td>
+      </tr>
+      
+      <tr>
+        <td><p align="left"><strong>O Melhor Atendimento</strong><br />
+            No caso de reincidência, no período de garantia, garantimos o retorno e 
+            resolução do problema.</p></td>
+      </tr>
+      <tr>
+        <td align="right"><a href="/Atendimento.aspx" class="classe1">+ saiba mais</a></td>
+      </tr>
+    </table></td>
+    <td bgcolor="#FFFFFF" style=" padding: 10px;" align="center" valign="top">
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</form>
+    </td>
+  </tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="702" border="0" cellspacing="0" cellpadding="0" style=" border-bottom: solid 1px #CCCCCC; border-left:  solid 1px #CCCCCC; border-right:  solid 1px #CCCCCC;">
+  <tr>
+    <td height="53" background="imagens/rodape.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="center"><span class="style1">4 irmãos Desentupidora &amp; Dedetizadora - LTDA - Tel.: 11 2958-7070 / 2878-4343</span></td>
+        <td width="110" align="center"><a href="http://www.zoudesign.com.br" title="ZOU Web Sites e Hospedagem" target="_blank"><img src="imagens/zoudesign.png" alt="ZOU_Hospedagem" width="105" height="34" border="0" /></a></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</center>
+    
+</body>
+</html>
+
+
+

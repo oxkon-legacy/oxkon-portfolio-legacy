@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Início Código Master Page*/
+
+a.classe1:link{ font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color:#3366FF;}
+a.classe1:hover{ font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color:#3399FF;}
+a.classe1:visited{ font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #CCCCCC;}
+
+a.classe2:link{ font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color:#000000; text-decoration: none;}
+a.classe2:hover{ font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color:#999999; text-decoration: none;}
+a.classe2:visited{ font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #CCCCCC;}
+
+
+@font-face 
+{
+     font-family: Trebuchet MS;
+     src: url('/fonts/Trebuchet MS.ttf');
+	 src: local('Trebuchet MS.ttf');
+}
+
+input[type="text"]
+{
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    border: solid 1px #C0C4CF;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+.textBox
+{
+font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+border: solid 1px #C0C4CF;
+padding-top: 4px;
+padding-right: 4px;
+padding-bottom: 4px;
+padding-left: 4px;
+margin-top: 2px;
+margin-right: 2px;
+margin-bottom: 2px;
+margin-left: 2px;
+}
+
+
+body
+{
+	margin-top: 0px;
+	background-image: url(/imagens/bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #DADADA;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	color: #3c3c3c;
+}
+
+
+/*Fim Master Page*/
