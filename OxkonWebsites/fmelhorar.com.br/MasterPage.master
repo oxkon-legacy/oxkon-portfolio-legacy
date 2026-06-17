@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="scripts/estilo.css" />
+    <link href='http://fonts.googleapis.com/css?family=Inder' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="scripts/jquery.accordion.js" type="text/javascript"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="geral">
+        <div class="bgwhite">
+            <!-- INÍCIO DO TOPO -->
+            <div class="topo">
+                <div class="menu">
+                    <div class="logo">
+                        <a href="/Default2.aspx"><img src="Imagens/logo.gif" border="0" /></a></div>
+                    <ul>
+                        <li><a href="/Default2.aspx">Home</a></li>
+                        <li><a href="/Quem_Somos.aspx">Quem Somos</a></li>
+                        <li><a href="/Servicos.aspx">Serviços</a></li>
+                        <li><a href="/O_que_e-lavagem-higienizacao.aspx">O Que É</a></li>
+                        <li><a href="/Como_fazemos.aspx">Como Fazemos</a></li>
+                        <li><a href="/Por_que_Melhor_Ar.aspx">Porque Melhor'ar</a></li>
+                        <li><a href="/Contato.aspx">Fale Conosco</a></li>
+                    </ul>
+                </div>
+                <!-- Banner -->
+                <div class="baner">
+                    <div class="main_view">
+                        <div class="window">
+                            <div class="image_reel" style=" width:2250px !important;">
+                                <a href="#">
+                                    <img src="Imagens/bn1.jpg" alt="" /></a>
+									<a href="#">
+                                        <img src="Imagens/bn2.jpg" alt="" /></a>
+										<a href="#">
+                                            <img src="Imagens/bn3.jpg" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="paging">
+                            <a href="#" rel="1">&nbsp;</a> <a href="#" rel="2">&nbsp;</a> <a href="#" rel="3">&nbsp;</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Banner -->
+            </div>
+            <!-- FIM DO TOPO INÍCIO CORPO -->
+            <div class="corpo">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                <div class="espaço">
+                    <div class="links">
+                        <h1 class="htop">
+                            Links Úteis</h1>
+                        <div id="link_chain">
+                        </div>
+                        <div>
+                            <ul class="ullinks ">
+                                <li>Ag&ecirc;ncia Nacional de Vigil&acirc;ncia Sanit&aacute;ria</li>
+                                <li>Banco Nacional de Desenvolvimento Econ&ocirc;mico e Social</li>
+                                <li>Banco Central do Brasil</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="atendimento">
+                        <h1 class="htop">
+                            Central de Atendimento</h1>
+                        <div id="callus">
+                        </div>
+                        <div id="contato_fone">
+                            [11] 
+                            2280-5045</div>
+                        <br />
+                        <div id="contato_mail">
+                            <a class="uit" href="mailto:atendimento@fmelhorar.com.br">atendimento@fmelhorar.com.br</a></div>
+                    </div>
+                    <div class="siga">
+                        <h1 class="htop">
+                            Sigam-nos</h1>
+                        <div id="follow">
+                        </div>
+                        <div id="fb">
+                        </div>
+                        <div id="t">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIM DO CORPO INÍCIO RODAPE -->
+            <div class="rodape">
+                Melhor’Ar<br />
+                Telefone: (11) 2280-5045 </div>
+            <!-- FIM DO RODAPE -->
+        </div>
+    </div>
+    </form>
+</body>
+</html>
